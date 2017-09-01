@@ -49,26 +49,6 @@ export class UxPickerDialog implements Themable {
       if (this.maxDate != null && this.selectedDate.isBefore(this.maxDate)) {
         this.selectedDate = moment(this.minDate).clone();
       }
-
-      if (this.minTime != null) {
-        if (this.selectedDate.hour() < this.minTime.hour()) {
-          this.selectedDate.hour(this.minTime.hour());
-        }
-
-        if (this.selectedDate.minute() < this.minTime.minute()) {
-          this.selectedDate.minute(this.minTime.minute());
-        }
-      }
-
-      if (this.maxTime != null) {
-        if (this.selectedDate.hour() > this.maxTime.hour()) {
-          this.selectedDate.hour(this.maxTime.hour());
-        }
-
-        if (this.selectedDate.minute() > this.maxTime.minute()) {
-          this.selectedDate.minute(this.maxTime.minute());
-        }
-      }
     }
   }
 
