@@ -62,7 +62,6 @@ export function configure(config: FrameworkConfiguration) {
     PLATFORM.moduleName('./datepicker/ux-calendar'),
     PLATFORM.moduleName('./datepicker/ux-datepicker'),
     PLATFORM.moduleName('./datepicker/ux-picker-dialog'),
-    PLATFORM.moduleName('./datepicker/ux-time-selector'),
     PLATFORM.moduleName('./datepicker/ux-year-list')
   ]);
 }
