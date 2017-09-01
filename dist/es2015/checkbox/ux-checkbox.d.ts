@@ -1,0 +1,35 @@
+import { ViewResources, View } from 'aurelia-templating';
+import { StyleEngine } from 'aurelia-ux';
+import { Themable } from 'aurelia-ux';
+export declare class UxCheckbox implements Themable {
+    element: HTMLElement;
+    resources: ViewResources;
+    private styleEngine;
+    disabled: any;
+    effect: null;
+    id: string;
+    label: string;
+    matcher: (a: any, b: any) => boolean;
+    model: any;
+    tabindex: number;
+    theme: null;
+    checked: any;
+    value: any;
+    uncheckedValue: any;
+    view: View;
+    private checkbox;
+    private ripple;
+    readonly isDisabled: boolean;
+    constructor(element: HTMLElement, resources: ViewResources, styleEngine: StyleEngine);
+    created(_: any, myView: View): void;
+    bind(): void;
+    attached(): void;
+    detached(): void;
+    themeChanged(newValue: any): void;
+    disabledChanged(newValue: boolean | string): void;
+    checkedChanged(): void;
+    toggleCheckbox(): void;
+    onKeyup(e: KeyboardEvent): void;
+    onMouseDown(e: MouseEvent): void;
+    onMouseUp(e: MouseEvent): void;
+}
