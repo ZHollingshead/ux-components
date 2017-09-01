@@ -18,7 +18,6 @@ export { UxTabsTheme } from './tabs/ux-tabs-theme';
 export { UxCalendarTheme } from './datepicker/ux-calendar-theme';
 export { UxDatepickerTheme } from './datepicker/ux-datepicker-theme';
 export { UxPickerDialogTheme } from './datepicker/ux-picker-dialog-theme';
-export { UxTimeSelectorTheme } from './datepicker/ux-time-selector-theme';
 export { UxYearListTheme } from './datepicker/ux-year-list-theme';
 
 export { UxButton } from './button/ux-button';
@@ -40,7 +39,6 @@ export { UxTabs } from './tabs/ux-tabs';
 export { UxCalendar } from './datepicker/ux-calendar';
 export { UxDatepicker } from './datepicker/ux-datepicker';
 export { UxPickerDialog } from './datepicker/ux-picker-dialog';
-export { UxTimeSelector } from './datepicker/ux-time-selector';
 export { UxYearList } from './datepicker/ux-year-list';
 
 export function configure(config: FrameworkConfiguration) {
