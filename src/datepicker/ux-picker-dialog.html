@@ -10,11 +10,6 @@
         ${selectedDate.format('ddd, MMM D')}
       </div>
     </template>
-    <template if.bind="type !== 'date'">
-      <div class="date ${display === 'time' ? 'active':''}" click.trigger="display = 'time'">
-        ${selectedDate.format('LT')}
-      </div>
-    </template>
   </header>
 
   <ux-year-list if.bind="display === 'year'"
