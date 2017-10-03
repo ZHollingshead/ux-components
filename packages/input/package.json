@@ -1,12 +1,13 @@
 {
-  "name": "aurelia-ux-components",
+  "name": "@aurelia-ux-components/input",
   "version": "0.0.1",
-  "description": "A set of components for Aurelia-UX.",
+  "description": "Checkbox component for Aurelia UX",
   "keywords": [
     "aurelia",
     "styles",
     "components",
-    "ux"
+    "ux",
+    "checkbox"
   ],
   "homepage": "http://aurelia.io",
   "bugs": {
@@ -91,17 +92,6 @@
     "devDependencies": {}
   },
   "dependencies": {
-    "@aurelia-ux-components/button": "^0.0.1",
-    "@aurelia-ux-components/checkbox": "^0.0.1",
-    "@aurelia-ux-components/chip-input": "^0.0.1",
-    "@aurelia-ux-components/datepicker": "^0.0.1",
-    "@aurelia-ux-components/form": "^0.0.1",
-    "@aurelia-ux-components/icons": "^0.0.1",
-    "@aurelia-ux-components/input": "^0.0.1",
-    "@aurelia-ux-components/input-info": "^0.0.1",
-    "@aurelia-ux-components/list": "^0.0.1",
-    "@aurelia-ux-components/tabs": "^0.0.1",
-    "@aurelia-ux-components/textarea": "^0.0.1",
     "aurelia-framework": "^1.0.0",
     "aurelia-ux": "^0.3.0"
   },
@@ -123,7 +113,6 @@
     "karma-ie-launcher": "^1.0.0",
     "karma-jasmine": "^1.1.0",
     "karma-requirejs": "^1.1.0",
-    "lerna": "^2.1.2",
     "requirejs": "^2.3.3",
     "requirejs-text": "^2.0.15",
     "rimraf": "^2.6.1",

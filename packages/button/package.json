@@ -1,12 +1,13 @@
 {
-  "name": "aurelia-ux-components",
+  "name": "@aurelia-ux-components/button",
   "version": "0.0.1",
-  "description": "A set of components for Aurelia-UX.",
+  "description": "Button component for Aurelia UX",
   "keywords": [
     "aurelia",
     "styles",
     "components",
-    "ux"
+    "ux",
+    "button"
   ],
   "homepage": "http://aurelia.io",
   "bugs": {
@@ -52,6 +53,7 @@
     "changelog": "cross-env conventional-changelog -p ux -i doc/CHANGELOG.md -s",
     "bump-version": "npm --no-git-tag-version version",
     "preprepare-release": "cross-env npm run test",
+    "get-ux": "cross-env copyfiles --up 4 ux/dist/**/*.js node_modules/aurelia-ux/dist",
     "prepare-release": "cross-env npm run changelog && npm run build && npm run doc"
   },
   "jspm": {
@@ -91,17 +93,6 @@
     "devDependencies": {}
   },
   "dependencies": {
-    "@aurelia-ux-components/button": "^0.0.1",
-    "@aurelia-ux-components/checkbox": "^0.0.1",
-    "@aurelia-ux-components/chip-input": "^0.0.1",
-    "@aurelia-ux-components/datepicker": "^0.0.1",
-    "@aurelia-ux-components/form": "^0.0.1",
-    "@aurelia-ux-components/icons": "^0.0.1",
-    "@aurelia-ux-components/input": "^0.0.1",
-    "@aurelia-ux-components/input-info": "^0.0.1",
-    "@aurelia-ux-components/list": "^0.0.1",
-    "@aurelia-ux-components/tabs": "^0.0.1",
-    "@aurelia-ux-components/textarea": "^0.0.1",
     "aurelia-framework": "^1.0.0",
     "aurelia-ux": "^0.3.0"
   },
@@ -123,7 +114,6 @@
     "karma-ie-launcher": "^1.0.0",
     "karma-jasmine": "^1.1.0",
     "karma-requirejs": "^1.1.0",
-    "lerna": "^2.1.2",
     "requirejs": "^2.3.3",
     "requirejs-text": "^2.0.15",
     "rimraf": "^2.6.1",
