@@ -6,12 +6,14 @@ import { Themable } from 'aurelia-ux';
 import { PaperRipple } from '../effects/paper-ripple';
 import { processDesignAttributes } from 'aurelia-ux';
 import { UxCheckboxTheme } from './ux-checkbox-theme';
+import { normalizeBooleanAttribute } from '../../../resources/html-attributes';
 
 @inject(Element, ViewResources, StyleEngine)
 @customElement('ux-checkbox')
 @processAttributes(processDesignAttributes)
+
 export class UxCheckbox implements Themable {
-  @bindable public disabled: any = null;
+  @bindable public disabled: boolean | string = false;
   @bindable public effect = null;
   @bindable public id: string;
   @bindable public label: string;
@@ -35,13 +37,7 @@ export class UxCheckbox implements Themable {
 
   @computedFrom('disabled')
   public get isDisabled() {
-    let ret: boolean = this.disabled;
-    if (typeof this.disabled === 'string' &&
-      (this.disabled === '' || this.disabled.toString().toLocaleLowerCase() === 'disabled')) {
-      ret = true;
-    }
-
-    return ret;
+    return normalizeBooleanAttribute('disabled', this.disabled);
   }
 
   constructor(public element: HTMLElement, public resources: ViewResources, private styleEngine: StyleEngine) { }
@@ -57,12 +53,7 @@ export class UxCheckbox implements Themable {
       this.checkedChanged();
     }
 
-    // ensure we cast empty string as true
-    if (typeof this.disabled === 'string' && this.disabled === '') {
-      this.disabled = true;
-    }
-
-    if (this.disabled && !this.element.classList.contains('disabled')) {
+    if (normalizeBooleanAttribute('disabled', this.disabled) && !this.element.classList.contains('disabled')) {
       this.element.classList.add('disabled');
     } else if (this.element.classList.contains('disabled')) {
       this.element.classList.remove('disabled');
@@ -104,12 +95,7 @@ export class UxCheckbox implements Themable {
   }
 
   public disabledChanged(newValue: boolean | string) {
-    // ensure we cast empty string as true
-    if (typeof newValue === 'string' && newValue === '') {
-      newValue = true;
-    }
-
-    if (newValue && !this.element.classList.contains('disabled')) {
+    if (normalizeBooleanAttribute('disabled', newValue) && !this.element.classList.contains('disabled')) {
       this.element.classList.add('disabled');
     } else if (this.element.classList.contains('disabled')) {
       this.element.classList.remove('disabled');
