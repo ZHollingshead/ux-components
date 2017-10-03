@@ -1,0 +1,666 @@
+0 silly input [ 'publish' ]
+1 silly flags { _: [ 'publish' ] }
+2 verbose rootPath C:\Development\Aurelia\ux-components
+3 info version 2.1.2
+4 silly isInitialized
+5 silly isInitialized true
+6 silly existsSync C:\Development\Aurelia\ux-components\VERSION
+7 silly initialize attempt
+8 info current version 0.0.0
+9 silly getUpdates
+10 info Checking for updated packages...
+11 silly hasTags
+12 verbose hasTags false
+13 info Comparing with initial commit.
+14 verbose updated aurelia-ux-components
+15 verbose updated @aurelia-ux-components/button
+16 verbose updated @aurelia-ux-components/checkbox
+17 verbose updated @aurelia-ux-components/chip-input
+18 verbose updated @aurelia-ux-components/datepicker
+19 verbose updated @aurelia-ux-components/form
+20 verbose updated @aurelia-ux-components/icons
+21 verbose updated @aurelia-ux-components/input
+22 verbose updated @aurelia-ux-components/input-info
+23 verbose updated @aurelia-ux-components/list
+24 verbose updated @aurelia-ux-components/tabs
+25 verbose updated @aurelia-ux-components/textarea
+26 silly collectDependents
+27 silly isPackageDependentOf aurelia-ux-components aurelia-ux-components
+28 silly isPackageDependentOf @aurelia-ux-components/button aurelia-ux-components
+29 silly isPackageDependentOf @aurelia-ux-components/checkbox aurelia-ux-components
+30 silly isPackageDependentOf @aurelia-ux-components/chip-input aurelia-ux-components
+31 silly isPackageDependentOf @aurelia-ux-components/datepicker aurelia-ux-components
+32 silly isPackageDependentOf @aurelia-ux-components/button aurelia-ux-components
+33 silly isPackageDependentOf @aurelia-ux-components/form aurelia-ux-components
+34 silly isPackageDependentOf @aurelia-ux-components/icons aurelia-ux-components
+35 silly isPackageDependentOf @aurelia-ux-components/input aurelia-ux-components
+36 silly isPackageDependentOf @aurelia-ux-components/input-info aurelia-ux-components
+37 silly isPackageDependentOf @aurelia-ux-components/list aurelia-ux-components
+38 silly isPackageDependentOf @aurelia-ux-components/tabs aurelia-ux-components
+39 silly isPackageDependentOf @aurelia-ux-components/textarea aurelia-ux-components
+40 silly isPackageDependentOf aurelia-ux-components @aurelia-ux-components/button
+41 verbose dependent aurelia-ux-components depends on @aurelia-ux-components/button
+42 silly isPackageDependentOf aurelia-ux-components @aurelia-ux-components/checkbox
+43 verbose dependent aurelia-ux-components depends on @aurelia-ux-components/checkbox
+44 silly isPackageDependentOf aurelia-ux-components @aurelia-ux-components/chip-input
+45 verbose dependent aurelia-ux-components depends on @aurelia-ux-components/chip-input
+46 silly isPackageDependentOf aurelia-ux-components @aurelia-ux-components/datepicker
+47 verbose dependent aurelia-ux-components depends on @aurelia-ux-components/datepicker
+48 silly isPackageDependentOf aurelia-ux-components @aurelia-ux-components/form
+49 verbose dependent aurelia-ux-components depends on @aurelia-ux-components/form
+50 silly isPackageDependentOf aurelia-ux-components @aurelia-ux-components/icons
+51 verbose dependent aurelia-ux-components depends on @aurelia-ux-components/icons
+52 silly isPackageDependentOf aurelia-ux-components @aurelia-ux-components/input
+53 verbose dependent aurelia-ux-components depends on @aurelia-ux-components/input
+54 silly isPackageDependentOf aurelia-ux-components @aurelia-ux-components/input-info
+55 verbose dependent aurelia-ux-components depends on @aurelia-ux-components/input-info
+56 silly isPackageDependentOf aurelia-ux-components @aurelia-ux-components/list
+57 verbose dependent aurelia-ux-components depends on @aurelia-ux-components/list
+58 silly isPackageDependentOf aurelia-ux-components @aurelia-ux-components/tabs
+59 verbose dependent aurelia-ux-components depends on @aurelia-ux-components/tabs
+60 silly isPackageDependentOf aurelia-ux-components @aurelia-ux-components/textarea
+61 verbose dependent aurelia-ux-components depends on @aurelia-ux-components/textarea
+62 silly isPackageDependentOf @aurelia-ux-components/button aurelia-ux-components
+63 silly isPackageDependentOf @aurelia-ux-components/button @aurelia-ux-components/button
+64 silly isPackageDependentOf @aurelia-ux-components/button @aurelia-ux-components/checkbox
+65 silly isPackageDependentOf @aurelia-ux-components/button @aurelia-ux-components/chip-input
+66 silly isPackageDependentOf @aurelia-ux-components/button @aurelia-ux-components/datepicker
+67 silly isPackageDependentOf @aurelia-ux-components/button @aurelia-ux-components/form
+68 silly isPackageDependentOf @aurelia-ux-components/button @aurelia-ux-components/icons
+69 silly isPackageDependentOf @aurelia-ux-components/button @aurelia-ux-components/input
+70 silly isPackageDependentOf @aurelia-ux-components/button @aurelia-ux-components/input-info
+71 silly isPackageDependentOf @aurelia-ux-components/button @aurelia-ux-components/list
+72 silly isPackageDependentOf @aurelia-ux-components/button @aurelia-ux-components/tabs
+73 silly isPackageDependentOf @aurelia-ux-components/button @aurelia-ux-components/textarea
+74 silly isPackageDependentOf @aurelia-ux-components/checkbox aurelia-ux-components
+75 silly isPackageDependentOf @aurelia-ux-components/checkbox @aurelia-ux-components/button
+76 silly isPackageDependentOf @aurelia-ux-components/checkbox @aurelia-ux-components/checkbox
+77 silly isPackageDependentOf @aurelia-ux-components/checkbox @aurelia-ux-components/chip-input
+78 silly isPackageDependentOf @aurelia-ux-components/checkbox @aurelia-ux-components/datepicker
+79 silly isPackageDependentOf @aurelia-ux-components/checkbox @aurelia-ux-components/form
+80 silly isPackageDependentOf @aurelia-ux-components/checkbox @aurelia-ux-components/icons
+81 silly isPackageDependentOf @aurelia-ux-components/checkbox @aurelia-ux-components/input
+82 silly isPackageDependentOf @aurelia-ux-components/checkbox @aurelia-ux-components/input-info
+83 silly isPackageDependentOf @aurelia-ux-components/checkbox @aurelia-ux-components/list
+84 silly isPackageDependentOf @aurelia-ux-components/checkbox @aurelia-ux-components/tabs
+85 silly isPackageDependentOf @aurelia-ux-components/checkbox @aurelia-ux-components/textarea
+86 silly isPackageDependentOf @aurelia-ux-components/chip-input aurelia-ux-components
+87 silly isPackageDependentOf @aurelia-ux-components/chip-input @aurelia-ux-components/button
+88 silly isPackageDependentOf @aurelia-ux-components/chip-input @aurelia-ux-components/checkbox
+89 silly isPackageDependentOf @aurelia-ux-components/chip-input @aurelia-ux-components/chip-input
+90 silly isPackageDependentOf @aurelia-ux-components/chip-input @aurelia-ux-components/datepicker
+91 silly isPackageDependentOf @aurelia-ux-components/chip-input @aurelia-ux-components/form
+92 silly isPackageDependentOf @aurelia-ux-components/chip-input @aurelia-ux-components/icons
+93 silly isPackageDependentOf @aurelia-ux-components/chip-input @aurelia-ux-components/input
+94 silly isPackageDependentOf @aurelia-ux-components/chip-input @aurelia-ux-components/input-info
+95 silly isPackageDependentOf @aurelia-ux-components/chip-input @aurelia-ux-components/list
+96 silly isPackageDependentOf @aurelia-ux-components/chip-input @aurelia-ux-components/tabs
+97 silly isPackageDependentOf @aurelia-ux-components/chip-input @aurelia-ux-components/textarea
+98 silly isPackageDependentOf @aurelia-ux-components/datepicker aurelia-ux-components
+99 silly isPackageDependentOf @aurelia-ux-components/datepicker @aurelia-ux-components/button
+100 verbose dependent @aurelia-ux-components/datepicker depends on @aurelia-ux-components/button
+101 silly isPackageDependentOf @aurelia-ux-components/datepicker @aurelia-ux-components/checkbox
+102 silly isPackageDependentOf @aurelia-ux-components/button @aurelia-ux-components/checkbox
+103 silly isPackageDependentOf @aurelia-ux-components/datepicker @aurelia-ux-components/chip-input
+104 silly isPackageDependentOf @aurelia-ux-components/button @aurelia-ux-components/chip-input
+105 silly isPackageDependentOf @aurelia-ux-components/datepicker @aurelia-ux-components/datepicker
+106 silly isPackageDependentOf @aurelia-ux-components/button @aurelia-ux-components/datepicker
+107 silly isPackageDependentOf @aurelia-ux-components/datepicker @aurelia-ux-components/form
+108 silly isPackageDependentOf @aurelia-ux-components/button @aurelia-ux-components/form
+109 silly isPackageDependentOf @aurelia-ux-components/datepicker @aurelia-ux-components/icons
+110 silly isPackageDependentOf @aurelia-ux-components/button @aurelia-ux-components/icons
+111 silly isPackageDependentOf @aurelia-ux-components/datepicker @aurelia-ux-components/input
+112 silly isPackageDependentOf @aurelia-ux-components/button @aurelia-ux-components/input
+113 silly isPackageDependentOf @aurelia-ux-components/datepicker @aurelia-ux-components/input-info
+114 silly isPackageDependentOf @aurelia-ux-components/button @aurelia-ux-components/input-info
+115 silly isPackageDependentOf @aurelia-ux-components/datepicker @aurelia-ux-components/list
+116 silly isPackageDependentOf @aurelia-ux-components/button @aurelia-ux-components/list
+117 silly isPackageDependentOf @aurelia-ux-components/datepicker @aurelia-ux-components/tabs
+118 silly isPackageDependentOf @aurelia-ux-components/button @aurelia-ux-components/tabs
+119 silly isPackageDependentOf @aurelia-ux-components/datepicker @aurelia-ux-components/textarea
+120 silly isPackageDependentOf @aurelia-ux-components/button @aurelia-ux-components/textarea
+121 silly isPackageDependentOf @aurelia-ux-components/form aurelia-ux-components
+122 silly isPackageDependentOf @aurelia-ux-components/form @aurelia-ux-components/button
+123 silly isPackageDependentOf @aurelia-ux-components/form @aurelia-ux-components/checkbox
+124 silly isPackageDependentOf @aurelia-ux-components/form @aurelia-ux-components/chip-input
+125 silly isPackageDependentOf @aurelia-ux-components/form @aurelia-ux-components/datepicker
+126 silly isPackageDependentOf @aurelia-ux-components/form @aurelia-ux-components/form
+127 silly isPackageDependentOf @aurelia-ux-components/form @aurelia-ux-components/icons
+128 silly isPackageDependentOf @aurelia-ux-components/form @aurelia-ux-components/input
+129 silly isPackageDependentOf @aurelia-ux-components/form @aurelia-ux-components/input-info
+130 silly isPackageDependentOf @aurelia-ux-components/form @aurelia-ux-components/list
+131 silly isPackageDependentOf @aurelia-ux-components/form @aurelia-ux-components/tabs
+132 silly isPackageDependentOf @aurelia-ux-components/form @aurelia-ux-components/textarea
+133 silly isPackageDependentOf @aurelia-ux-components/icons aurelia-ux-components
+134 silly isPackageDependentOf @aurelia-ux-components/icons @aurelia-ux-components/button
+135 silly isPackageDependentOf @aurelia-ux-components/icons @aurelia-ux-components/checkbox
+136 silly isPackageDependentOf @aurelia-ux-components/icons @aurelia-ux-components/chip-input
+137 silly isPackageDependentOf @aurelia-ux-components/icons @aurelia-ux-components/datepicker
+138 silly isPackageDependentOf @aurelia-ux-components/icons @aurelia-ux-components/form
+139 silly isPackageDependentOf @aurelia-ux-components/icons @aurelia-ux-components/icons
+140 silly isPackageDependentOf @aurelia-ux-components/icons @aurelia-ux-components/input
+141 silly isPackageDependentOf @aurelia-ux-components/icons @aurelia-ux-components/input-info
+142 silly isPackageDependentOf @aurelia-ux-components/icons @aurelia-ux-components/list
+143 silly isPackageDependentOf @aurelia-ux-components/icons @aurelia-ux-components/tabs
+144 silly isPackageDependentOf @aurelia-ux-components/icons @aurelia-ux-components/textarea
+145 silly isPackageDependentOf @aurelia-ux-components/input aurelia-ux-components
+146 silly isPackageDependentOf @aurelia-ux-components/input @aurelia-ux-components/button
+147 silly isPackageDependentOf @aurelia-ux-components/input @aurelia-ux-components/checkbox
+148 silly isPackageDependentOf @aurelia-ux-components/input @aurelia-ux-components/chip-input
+149 silly isPackageDependentOf @aurelia-ux-components/input @aurelia-ux-components/datepicker
+150 silly isPackageDependentOf @aurelia-ux-components/input @aurelia-ux-components/form
+151 silly isPackageDependentOf @aurelia-ux-components/input @aurelia-ux-components/icons
+152 silly isPackageDependentOf @aurelia-ux-components/input @aurelia-ux-components/input
+153 silly isPackageDependentOf @aurelia-ux-components/input @aurelia-ux-components/input-info
+154 silly isPackageDependentOf @aurelia-ux-components/input @aurelia-ux-components/list
+155 silly isPackageDependentOf @aurelia-ux-components/input @aurelia-ux-components/tabs
+156 silly isPackageDependentOf @aurelia-ux-components/input @aurelia-ux-components/textarea
+157 silly isPackageDependentOf @aurelia-ux-components/input-info aurelia-ux-components
+158 silly isPackageDependentOf @aurelia-ux-components/input-info @aurelia-ux-components/button
+159 silly isPackageDependentOf @aurelia-ux-components/input-info @aurelia-ux-components/checkbox
+160 silly isPackageDependentOf @aurelia-ux-components/input-info @aurelia-ux-components/chip-input
+161 silly isPackageDependentOf @aurelia-ux-components/input-info @aurelia-ux-components/datepicker
+162 silly isPackageDependentOf @aurelia-ux-components/input-info @aurelia-ux-components/form
+163 silly isPackageDependentOf @aurelia-ux-components/input-info @aurelia-ux-components/icons
+164 silly isPackageDependentOf @aurelia-ux-components/input-info @aurelia-ux-components/input
+165 silly isPackageDependentOf @aurelia-ux-components/input-info @aurelia-ux-components/input-info
+166 silly isPackageDependentOf @aurelia-ux-components/input-info @aurelia-ux-components/list
+167 silly isPackageDependentOf @aurelia-ux-components/input-info @aurelia-ux-components/tabs
+168 silly isPackageDependentOf @aurelia-ux-components/input-info @aurelia-ux-components/textarea
+169 silly isPackageDependentOf @aurelia-ux-components/list aurelia-ux-components
+170 silly isPackageDependentOf @aurelia-ux-components/list @aurelia-ux-components/button
+171 silly isPackageDependentOf @aurelia-ux-components/list @aurelia-ux-components/checkbox
+172 silly isPackageDependentOf @aurelia-ux-components/list @aurelia-ux-components/chip-input
+173 silly isPackageDependentOf @aurelia-ux-components/list @aurelia-ux-components/datepicker
+174 silly isPackageDependentOf @aurelia-ux-components/list @aurelia-ux-components/form
+175 silly isPackageDependentOf @aurelia-ux-components/list @aurelia-ux-components/icons
+176 silly isPackageDependentOf @aurelia-ux-components/list @aurelia-ux-components/input
+177 silly isPackageDependentOf @aurelia-ux-components/list @aurelia-ux-components/input-info
+178 silly isPackageDependentOf @aurelia-ux-components/list @aurelia-ux-components/list
+179 silly isPackageDependentOf @aurelia-ux-components/list @aurelia-ux-components/tabs
+180 silly isPackageDependentOf @aurelia-ux-components/list @aurelia-ux-components/textarea
+181 silly isPackageDependentOf @aurelia-ux-components/tabs aurelia-ux-components
+182 silly isPackageDependentOf @aurelia-ux-components/tabs @aurelia-ux-components/button
+183 silly isPackageDependentOf @aurelia-ux-components/tabs @aurelia-ux-components/checkbox
+184 silly isPackageDependentOf @aurelia-ux-components/tabs @aurelia-ux-components/chip-input
+185 silly isPackageDependentOf @aurelia-ux-components/tabs @aurelia-ux-components/datepicker
+186 silly isPackageDependentOf @aurelia-ux-components/tabs @aurelia-ux-components/form
+187 silly isPackageDependentOf @aurelia-ux-components/tabs @aurelia-ux-components/icons
+188 silly isPackageDependentOf @aurelia-ux-components/tabs @aurelia-ux-components/input
+189 silly isPackageDependentOf @aurelia-ux-components/tabs @aurelia-ux-components/input-info
+190 silly isPackageDependentOf @aurelia-ux-components/tabs @aurelia-ux-components/list
+191 silly isPackageDependentOf @aurelia-ux-components/tabs @aurelia-ux-components/tabs
+192 silly isPackageDependentOf @aurelia-ux-components/tabs @aurelia-ux-components/textarea
+193 silly isPackageDependentOf @aurelia-ux-components/textarea aurelia-ux-components
+194 silly isPackageDependentOf @aurelia-ux-components/textarea @aurelia-ux-components/button
+195 silly isPackageDependentOf @aurelia-ux-components/textarea @aurelia-ux-components/checkbox
+196 silly isPackageDependentOf @aurelia-ux-components/textarea @aurelia-ux-components/chip-input
+197 silly isPackageDependentOf @aurelia-ux-components/textarea @aurelia-ux-components/datepicker
+198 silly isPackageDependentOf @aurelia-ux-components/textarea @aurelia-ux-components/form
+199 silly isPackageDependentOf @aurelia-ux-components/textarea @aurelia-ux-components/icons
+200 silly isPackageDependentOf @aurelia-ux-components/textarea @aurelia-ux-components/input
+201 silly isPackageDependentOf @aurelia-ux-components/textarea @aurelia-ux-components/input-info
+202 silly isPackageDependentOf @aurelia-ux-components/textarea @aurelia-ux-components/list
+203 silly isPackageDependentOf @aurelia-ux-components/textarea @aurelia-ux-components/tabs
+204 silly isPackageDependentOf @aurelia-ux-components/textarea @aurelia-ux-components/textarea
+205 silly collectUpdates
+206 verbose has filtered update aurelia-ux-components
+207 verbose has filtered update @aurelia-ux-components/button
+208 verbose has filtered update @aurelia-ux-components/checkbox
+209 verbose has filtered update @aurelia-ux-components/chip-input
+210 verbose has filtered update @aurelia-ux-components/datepicker
+211 verbose has filtered update @aurelia-ux-components/form
+212 verbose has filtered update @aurelia-ux-components/icons
+213 verbose has filtered update @aurelia-ux-components/input
+214 verbose has filtered update @aurelia-ux-components/input-info
+215 verbose has filtered update @aurelia-ux-components/list
+216 verbose has filtered update @aurelia-ux-components/tabs
+217 verbose has filtered update @aurelia-ux-components/textarea
+218 silly initialize success
+219 silly execute attempt
+220 silly isDetachedHead
+221 silly getCurrentBranch
+222 verbose getCurrentBranch master
+223 verbose isDetachedHead false
+224 silly addFile C:\Development\Aurelia\ux-components\lerna.json
+225 silly addFile C:\Development\Aurelia\ux-components\package.json
+226 silly addFile C:\Development\Aurelia\ux-components\packages\button\package.json
+227 silly addFile C:\Development\Aurelia\ux-components\packages\checkbox\package.json
+228 silly addFile C:\Development\Aurelia\ux-components\packages\chip-input\package.json
+229 silly addFile C:\Development\Aurelia\ux-components\packages\datepicker\package.json
+230 silly addFile C:\Development\Aurelia\ux-components\packages\form\package.json
+231 silly addFile C:\Development\Aurelia\ux-components\packages\icons\package.json
+232 silly addFile C:\Development\Aurelia\ux-components\packages\input\package.json
+233 silly addFile C:\Development\Aurelia\ux-components\packages\input-info\package.json
+234 silly addFile C:\Development\Aurelia\ux-components\packages\list\package.json
+235 silly addFile C:\Development\Aurelia\ux-components\packages\tabs\package.json
+236 silly addFile C:\Development\Aurelia\ux-components\packages\textarea\package.json
+237 silly commit v0.0.1
+238 verbose commit [ 'commit', '-m', 'v0.0.1' ]
+239 silly addTag v0.0.1
+240 info publish Publishing packages to npm...
+241 silly existsSync C:\Development\Aurelia\ux-components\scripts\prepublish.js
+242 verbose execScript No prepublish script found at C:\Development\Aurelia\ux-components\scripts\prepublish.js
+243 silly existsSync C:\Development\Aurelia\ux-components\packages\button\scripts\prepublish.js
+244 verbose execScript No prepublish script found at C:\Development\Aurelia\ux-components\packages\button\scripts\prepublish.js
+245 silly existsSync C:\Development\Aurelia\ux-components\packages\checkbox\scripts\prepublish.js
+246 verbose execScript No prepublish script found at C:\Development\Aurelia\ux-components\packages\checkbox\scripts\prepublish.js
+247 silly existsSync C:\Development\Aurelia\ux-components\packages\chip-input\scripts\prepublish.js
+248 verbose execScript No prepublish script found at C:\Development\Aurelia\ux-components\packages\chip-input\scripts\prepublish.js
+249 silly existsSync C:\Development\Aurelia\ux-components\packages\datepicker\scripts\prepublish.js
+250 verbose execScript No prepublish script found at C:\Development\Aurelia\ux-components\packages\datepicker\scripts\prepublish.js
+251 silly existsSync C:\Development\Aurelia\ux-components\packages\form\scripts\prepublish.js
+252 verbose execScript No prepublish script found at C:\Development\Aurelia\ux-components\packages\form\scripts\prepublish.js
+253 silly existsSync C:\Development\Aurelia\ux-components\packages\icons\scripts\prepublish.js
+254 verbose execScript No prepublish script found at C:\Development\Aurelia\ux-components\packages\icons\scripts\prepublish.js
+255 silly existsSync C:\Development\Aurelia\ux-components\packages\input\scripts\prepublish.js
+256 verbose execScript No prepublish script found at C:\Development\Aurelia\ux-components\packages\input\scripts\prepublish.js
+257 silly existsSync C:\Development\Aurelia\ux-components\packages\input-info\scripts\prepublish.js
+258 verbose execScript No prepublish script found at C:\Development\Aurelia\ux-components\packages\input-info\scripts\prepublish.js
+259 silly existsSync C:\Development\Aurelia\ux-components\packages\list\scripts\prepublish.js
+260 verbose execScript No prepublish script found at C:\Development\Aurelia\ux-components\packages\list\scripts\prepublish.js
+261 silly existsSync C:\Development\Aurelia\ux-components\packages\tabs\scripts\prepublish.js
+262 verbose execScript No prepublish script found at C:\Development\Aurelia\ux-components\packages\tabs\scripts\prepublish.js
+263 silly existsSync C:\Development\Aurelia\ux-components\packages\textarea\scripts\prepublish.js
+264 verbose execScript No prepublish script found at C:\Development\Aurelia\ux-components\packages\textarea\scripts\prepublish.js
+265 verbose publishing @aurelia-ux-components/button
+266 silly publishTaggedInDir latest button
+267 silly getExecOpts { cwd: 'C:\\Development\\Aurelia\\ux-components\\packages\\button' }
+268 verbose publishing @aurelia-ux-components/checkbox
+269 silly publishTaggedInDir latest checkbox
+270 silly getExecOpts { cwd: 'C:\\Development\\Aurelia\\ux-components\\packages\\checkbox' }
+271 verbose publishing @aurelia-ux-components/chip-input
+272 silly publishTaggedInDir latest chip-input
+273 silly getExecOpts { cwd: 'C:\\Development\\Aurelia\\ux-components\\packages\\chip-input' }
+274 verbose publishing @aurelia-ux-components/form
+275 silly publishTaggedInDir latest form
+276 silly getExecOpts { cwd: 'C:\\Development\\Aurelia\\ux-components\\packages\\form' }
+277 error publish Retrying failed publish: @aurelia-ux-components/chip-input
+278 verbose publish error Error: Command failed: npm publish --tag latest
+278 verbose publish error npm ERR! publish Failed PUT 402
+278 verbose publish error npm ERR! Windows_NT 10.0.15063
+278 verbose publish error npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "latest"
+278 verbose publish error npm ERR! node v7.9.0
+278 verbose publish error npm ERR! npm  v4.2.0
+278 verbose publish error npm ERR! code E402
+278 verbose publish error
+278 verbose publish error npm ERR! You must sign up for private packages : @aurelia-ux-components/chip-input
+278 verbose publish error npm ERR!
+278 verbose publish error npm ERR! If you need help, you may report this error at:
+278 verbose publish error npm ERR!     <https://github.com/npm/npm/issues>
+278 verbose publish error
+278 verbose publish error npm ERR! Please include the following file with any support request:
+278 verbose publish error npm ERR!     C:\Users\zach.hollingshead\AppData\Roaming\npm-cache\_logs\2017-10-03T17_21_35_989Z-debug.log
+278 verbose publish error
+278 verbose publish error     at Promise.all.then.arr (C:\Users\zach.hollingshead\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
+278 verbose publish error     at process._tickCallback (internal/process/next_tick.js:109:7)
+279 verbose publishing @aurelia-ux-components/chip-input
+280 silly publishTaggedInDir latest chip-input
+281 silly getExecOpts { cwd: 'C:\\Development\\Aurelia\\ux-components\\packages\\chip-input' }
+282 error publish Retrying failed publish: @aurelia-ux-components/form
+283 verbose publish error Error: Command failed: npm publish --tag latest
+283 verbose publish error npm ERR! publish Failed PUT 402
+283 verbose publish error npm ERR! Windows_NT 10.0.15063
+283 verbose publish error npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "latest"
+283 verbose publish error npm ERR! node v7.9.0
+283 verbose publish error npm ERR! npm  v4.2.0
+283 verbose publish error npm ERR! code E402
+283 verbose publish error
+283 verbose publish error npm ERR! You must sign up for private packages : @aurelia-ux-components/form
+283 verbose publish error npm ERR!
+283 verbose publish error npm ERR! If you need help, you may report this error at:
+283 verbose publish error npm ERR!     <https://github.com/npm/npm/issues>
+283 verbose publish error
+283 verbose publish error npm ERR! Please include the following file with any support request:
+283 verbose publish error npm ERR!     C:\Users\zach.hollingshead\AppData\Roaming\npm-cache\_logs\2017-10-03T17_21_36_031Z-debug.log
+283 verbose publish error
+283 verbose publish error     at Promise.all.then.arr (C:\Users\zach.hollingshead\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
+283 verbose publish error     at process._tickCallback (internal/process/next_tick.js:109:7)
+284 verbose publishing @aurelia-ux-components/form
+285 silly publishTaggedInDir latest form
+286 silly getExecOpts { cwd: 'C:\\Development\\Aurelia\\ux-components\\packages\\form' }
+287 error publish Retrying failed publish: @aurelia-ux-components/checkbox
+288 verbose publish error Error: Command failed: npm publish --tag latest
+288 verbose publish error npm ERR! publish Failed PUT 402
+288 verbose publish error npm ERR! Windows_NT 10.0.15063
+288 verbose publish error npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "latest"
+288 verbose publish error npm ERR! node v7.9.0
+288 verbose publish error npm ERR! npm  v4.2.0
+288 verbose publish error npm ERR! code E402
+288 verbose publish error
+288 verbose publish error npm ERR! You must sign up for private packages : @aurelia-ux-components/checkbox
+288 verbose publish error npm ERR!
+288 verbose publish error npm ERR! If you need help, you may report this error at:
+288 verbose publish error npm ERR!     <https://github.com/npm/npm/issues>
+288 verbose publish error
+288 verbose publish error npm ERR! Please include the following file with any support request:
+288 verbose publish error npm ERR!     C:\Users\zach.hollingshead\AppData\Roaming\npm-cache\_logs\2017-10-03T17_21_36_110Z-debug.log
+288 verbose publish error
+288 verbose publish error     at Promise.all.then.arr (C:\Users\zach.hollingshead\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
+288 verbose publish error     at process._tickCallback (internal/process/next_tick.js:109:7)
+289 verbose publishing @aurelia-ux-components/checkbox
+290 silly publishTaggedInDir latest checkbox
+291 silly getExecOpts { cwd: 'C:\\Development\\Aurelia\\ux-components\\packages\\checkbox' }
+292 error publish Retrying failed publish: @aurelia-ux-components/button
+293 verbose publish error Error: Command failed: npm publish --tag latest
+293 verbose publish error npm ERR! publish Failed PUT 402
+293 verbose publish error npm ERR! Windows_NT 10.0.15063
+293 verbose publish error npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "latest"
+293 verbose publish error npm ERR! node v7.9.0
+293 verbose publish error npm ERR! npm  v4.2.0
+293 verbose publish error npm ERR! code E402
+293 verbose publish error
+293 verbose publish error npm ERR! You must sign up for private packages : @aurelia-ux-components/button
+293 verbose publish error npm ERR!
+293 verbose publish error npm ERR! If you need help, you may report this error at:
+293 verbose publish error npm ERR!     <https://github.com/npm/npm/issues>
+293 verbose publish error
+293 verbose publish error npm ERR! Please include the following file with any support request:
+293 verbose publish error npm ERR!     C:\Users\zach.hollingshead\AppData\Roaming\npm-cache\_logs\2017-10-03T17_21_36_187Z-debug.log
+293 verbose publish error
+293 verbose publish error     at Promise.all.then.arr (C:\Users\zach.hollingshead\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
+293 verbose publish error     at process._tickCallback (internal/process/next_tick.js:109:7)
+294 verbose publishing @aurelia-ux-components/button
+295 silly publishTaggedInDir latest button
+296 silly getExecOpts { cwd: 'C:\\Development\\Aurelia\\ux-components\\packages\\button' }
+297 error publish Retrying failed publish: @aurelia-ux-components/form
+298 verbose publish error Error: Command failed: npm publish --tag latest
+298 verbose publish error npm ERR! publish Failed PUT 402
+298 verbose publish error npm ERR! Windows_NT 10.0.15063
+298 verbose publish error npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "latest"
+298 verbose publish error npm ERR! node v7.9.0
+298 verbose publish error npm ERR! npm  v4.2.0
+298 verbose publish error npm ERR! code E402
+298 verbose publish error
+298 verbose publish error npm ERR! You must sign up for private packages : @aurelia-ux-components/form
+298 verbose publish error npm ERR!
+298 verbose publish error npm ERR! If you need help, you may report this error at:
+298 verbose publish error npm ERR!     <https://github.com/npm/npm/issues>
+298 verbose publish error
+298 verbose publish error npm ERR! Please include the following file with any support request:
+298 verbose publish error npm ERR!     C:\Users\zach.hollingshead\AppData\Roaming\npm-cache\_logs\2017-10-03T17_21_39_504Z-debug.log
+298 verbose publish error
+298 verbose publish error     at Promise.all.then.arr (C:\Users\zach.hollingshead\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
+298 verbose publish error     at process._tickCallback (internal/process/next_tick.js:109:7)
+299 verbose publishing @aurelia-ux-components/form
+300 silly publishTaggedInDir latest form
+301 silly getExecOpts { cwd: 'C:\\Development\\Aurelia\\ux-components\\packages\\form' }
+302 error publish Retrying failed publish: @aurelia-ux-components/checkbox
+303 verbose publish error Error: Command failed: npm publish --tag latest
+303 verbose publish error npm ERR! publish Failed PUT 402
+303 verbose publish error npm ERR! Windows_NT 10.0.15063
+303 verbose publish error npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "latest"
+303 verbose publish error npm ERR! node v7.9.0
+303 verbose publish error npm ERR! npm  v4.2.0
+303 verbose publish error npm ERR! code E402
+303 verbose publish error
+303 verbose publish error npm ERR! You must sign up for private packages : @aurelia-ux-components/checkbox
+303 verbose publish error npm ERR!
+303 verbose publish error npm ERR! If you need help, you may report this error at:
+303 verbose publish error npm ERR!     <https://github.com/npm/npm/issues>
+303 verbose publish error
+303 verbose publish error npm ERR! Please include the following file with any support request:
+303 verbose publish error npm ERR!     C:\Users\zach.hollingshead\AppData\Roaming\npm-cache\_logs\2017-10-03T17_21_39_602Z-debug.log
+303 verbose publish error
+303 verbose publish error     at Promise.all.then.arr (C:\Users\zach.hollingshead\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
+303 verbose publish error     at process._tickCallback (internal/process/next_tick.js:109:7)
+304 verbose publishing @aurelia-ux-components/checkbox
+305 silly publishTaggedInDir latest checkbox
+306 silly getExecOpts { cwd: 'C:\\Development\\Aurelia\\ux-components\\packages\\checkbox' }
+307 error publish Retrying failed publish: @aurelia-ux-components/button
+308 verbose publish error Error: Command failed: npm publish --tag latest
+308 verbose publish error npm ERR! publish Failed PUT 402
+308 verbose publish error npm ERR! Windows_NT 10.0.15063
+308 verbose publish error npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "latest"
+308 verbose publish error npm ERR! node v7.9.0
+308 verbose publish error npm ERR! npm  v4.2.0
+308 verbose publish error npm ERR! code E402
+308 verbose publish error
+308 verbose publish error npm ERR! You must sign up for private packages : @aurelia-ux-components/button
+308 verbose publish error npm ERR!
+308 verbose publish error npm ERR! If you need help, you may report this error at:
+308 verbose publish error npm ERR!     <https://github.com/npm/npm/issues>
+308 verbose publish error
+308 verbose publish error npm ERR! Please include the following file with any support request:
+308 verbose publish error npm ERR!     C:\Users\zach.hollingshead\AppData\Roaming\npm-cache\_logs\2017-10-03T17_21_39_651Z-debug.log
+308 verbose publish error
+308 verbose publish error     at Promise.all.then.arr (C:\Users\zach.hollingshead\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
+308 verbose publish error     at process._tickCallback (internal/process/next_tick.js:109:7)
+309 verbose publishing @aurelia-ux-components/button
+310 silly publishTaggedInDir latest button
+311 silly getExecOpts { cwd: 'C:\\Development\\Aurelia\\ux-components\\packages\\button' }
+312 error publish Retrying failed publish: @aurelia-ux-components/chip-input
+313 verbose publish error Error: Command failed: npm publish --tag latest
+313 verbose publish error npm ERR! publish Failed PUT 402
+313 verbose publish error npm ERR! Windows_NT 10.0.15063
+313 verbose publish error npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "latest"
+313 verbose publish error npm ERR! node v7.9.0
+313 verbose publish error npm ERR! npm  v4.2.0
+313 verbose publish error npm ERR! code E402
+313 verbose publish error
+313 verbose publish error npm ERR! You must sign up for private packages : @aurelia-ux-components/chip-input
+313 verbose publish error npm ERR!
+313 verbose publish error npm ERR! If you need help, you may report this error at:
+313 verbose publish error npm ERR!     <https://github.com/npm/npm/issues>
+313 verbose publish error
+313 verbose publish error npm ERR! Please include the following file with any support request:
+313 verbose publish error npm ERR!     C:\Users\zach.hollingshead\AppData\Roaming\npm-cache\_logs\2017-10-03T17_21_39_684Z-debug.log
+313 verbose publish error
+313 verbose publish error     at Promise.all.then.arr (C:\Users\zach.hollingshead\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
+313 verbose publish error     at process._tickCallback (internal/process/next_tick.js:109:7)
+314 verbose publishing @aurelia-ux-components/chip-input
+315 silly publishTaggedInDir latest chip-input
+316 silly getExecOpts { cwd: 'C:\\Development\\Aurelia\\ux-components\\packages\\chip-input' }
+317 error publish Retrying failed publish: @aurelia-ux-components/form
+318 verbose publish error Error: Command failed: npm publish --tag latest
+318 verbose publish error npm ERR! publish Failed PUT 402
+318 verbose publish error npm ERR! Windows_NT 10.0.15063
+318 verbose publish error npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "latest"
+318 verbose publish error npm ERR! node v7.9.0
+318 verbose publish error npm ERR! npm  v4.2.0
+318 verbose publish error npm ERR! code E402
+318 verbose publish error
+318 verbose publish error npm ERR! You must sign up for private packages : @aurelia-ux-components/form
+318 verbose publish error npm ERR!
+318 verbose publish error npm ERR! If you need help, you may report this error at:
+318 verbose publish error npm ERR!     <https://github.com/npm/npm/issues>
+318 verbose publish error
+318 verbose publish error npm ERR! Please include the following file with any support request:
+318 verbose publish error npm ERR!     C:\Users\zach.hollingshead\AppData\Roaming\npm-cache\_logs\2017-10-03T17_21_43_337Z-debug.log
+318 verbose publish error
+318 verbose publish error     at Promise.all.then.arr (C:\Users\zach.hollingshead\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
+318 verbose publish error     at process._tickCallback (internal/process/next_tick.js:109:7)
+319 verbose publishing @aurelia-ux-components/form
+320 silly publishTaggedInDir latest form
+321 silly getExecOpts { cwd: 'C:\\Development\\Aurelia\\ux-components\\packages\\form' }
+322 error publish Retrying failed publish: @aurelia-ux-components/button
+323 verbose publish error Error: Command failed: npm publish --tag latest
+323 verbose publish error npm ERR! publish Failed PUT 402
+323 verbose publish error npm ERR! Windows_NT 10.0.15063
+323 verbose publish error npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "latest"
+323 verbose publish error npm ERR! node v7.9.0
+323 verbose publish error npm ERR! npm  v4.2.0
+323 verbose publish error npm ERR! code E402
+323 verbose publish error
+323 verbose publish error npm ERR! You must sign up for private packages : @aurelia-ux-components/button
+323 verbose publish error npm ERR!
+323 verbose publish error npm ERR! If you need help, you may report this error at:
+323 verbose publish error npm ERR!     <https://github.com/npm/npm/issues>
+323 verbose publish error
+323 verbose publish error npm ERR! Please include the following file with any support request:
+323 verbose publish error npm ERR!     C:\Users\zach.hollingshead\AppData\Roaming\npm-cache\_logs\2017-10-03T17_21_43_373Z-debug.log
+323 verbose publish error
+323 verbose publish error     at Promise.all.then.arr (C:\Users\zach.hollingshead\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
+323 verbose publish error     at process._tickCallback (internal/process/next_tick.js:109:7)
+324 verbose publishing @aurelia-ux-components/button
+325 silly publishTaggedInDir latest button
+326 silly getExecOpts { cwd: 'C:\\Development\\Aurelia\\ux-components\\packages\\button' }
+327 error publish Retrying failed publish: @aurelia-ux-components/checkbox
+328 verbose publish error Error: Command failed: npm publish --tag latest
+328 verbose publish error npm ERR! publish Failed PUT 402
+328 verbose publish error npm ERR! Windows_NT 10.0.15063
+328 verbose publish error npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "latest"
+328 verbose publish error npm ERR! node v7.9.0
+328 verbose publish error npm ERR! npm  v4.2.0
+328 verbose publish error npm ERR! code E402
+328 verbose publish error
+328 verbose publish error npm ERR! You must sign up for private packages : @aurelia-ux-components/checkbox
+328 verbose publish error npm ERR!
+328 verbose publish error npm ERR! If you need help, you may report this error at:
+328 verbose publish error npm ERR!     <https://github.com/npm/npm/issues>
+328 verbose publish error
+328 verbose publish error npm ERR! Please include the following file with any support request:
+328 verbose publish error npm ERR!     C:\Users\zach.hollingshead\AppData\Roaming\npm-cache\_logs\2017-10-03T17_21_43_451Z-debug.log
+328 verbose publish error
+328 verbose publish error     at Promise.all.then.arr (C:\Users\zach.hollingshead\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
+328 verbose publish error     at process._tickCallback (internal/process/next_tick.js:109:7)
+329 verbose publishing @aurelia-ux-components/checkbox
+330 silly publishTaggedInDir latest checkbox
+331 silly getExecOpts { cwd: 'C:\\Development\\Aurelia\\ux-components\\packages\\checkbox' }
+332 error publish Retrying failed publish: @aurelia-ux-components/chip-input
+333 verbose publish error Error: Command failed: npm publish --tag latest
+333 verbose publish error npm ERR! publish Failed PUT 402
+333 verbose publish error npm ERR! Windows_NT 10.0.15063
+333 verbose publish error npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "latest"
+333 verbose publish error npm ERR! node v7.9.0
+333 verbose publish error npm ERR! npm  v4.2.0
+333 verbose publish error npm ERR! code E402
+333 verbose publish error
+333 verbose publish error npm ERR! You must sign up for private packages : @aurelia-ux-components/chip-input
+333 verbose publish error npm ERR!
+333 verbose publish error npm ERR! If you need help, you may report this error at:
+333 verbose publish error npm ERR!     <https://github.com/npm/npm/issues>
+333 verbose publish error
+333 verbose publish error npm ERR! Please include the following file with any support request:
+333 verbose publish error npm ERR!     C:\Users\zach.hollingshead\AppData\Roaming\npm-cache\_logs\2017-10-03T17_21_43_483Z-debug.log
+333 verbose publish error
+333 verbose publish error     at Promise.all.then.arr (C:\Users\zach.hollingshead\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
+333 verbose publish error     at process._tickCallback (internal/process/next_tick.js:109:7)
+334 verbose publishing @aurelia-ux-components/chip-input
+335 silly publishTaggedInDir latest chip-input
+336 silly getExecOpts { cwd: 'C:\\Development\\Aurelia\\ux-components\\packages\\chip-input' }
+337 error publish Retrying failed publish: @aurelia-ux-components/form
+338 verbose publish error Error: Command failed: npm publish --tag latest
+338 verbose publish error npm ERR! publish Failed PUT 402
+338 verbose publish error npm ERR! Windows_NT 10.0.15063
+338 verbose publish error npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "latest"
+338 verbose publish error npm ERR! node v7.9.0
+338 verbose publish error npm ERR! npm  v4.2.0
+338 verbose publish error npm ERR! code E402
+338 verbose publish error
+338 verbose publish error npm ERR! You must sign up for private packages : @aurelia-ux-components/form
+338 verbose publish error npm ERR!
+338 verbose publish error npm ERR! If you need help, you may report this error at:
+338 verbose publish error npm ERR!     <https://github.com/npm/npm/issues>
+338 verbose publish error
+338 verbose publish error npm ERR! Please include the following file with any support request:
+338 verbose publish error npm ERR!     C:\Users\zach.hollingshead\AppData\Roaming\npm-cache\_logs\2017-10-03T17_21_46_992Z-debug.log
+338 verbose publish error
+338 verbose publish error     at Promise.all.then.arr (C:\Users\zach.hollingshead\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
+338 verbose publish error     at process._tickCallback (internal/process/next_tick.js:109:7)
+339 verbose publishing @aurelia-ux-components/form
+340 silly publishTaggedInDir latest form
+341 silly getExecOpts { cwd: 'C:\\Development\\Aurelia\\ux-components\\packages\\form' }
+342 error publish Retrying failed publish: @aurelia-ux-components/checkbox
+343 verbose publish error Error: Command failed: npm publish --tag latest
+343 verbose publish error npm ERR! publish Failed PUT 402
+343 verbose publish error npm ERR! Windows_NT 10.0.15063
+343 verbose publish error npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "latest"
+343 verbose publish error npm ERR! node v7.9.0
+343 verbose publish error npm ERR! npm  v4.2.0
+343 verbose publish error npm ERR! code E402
+343 verbose publish error
+343 verbose publish error npm ERR! You must sign up for private packages : @aurelia-ux-components/checkbox
+343 verbose publish error npm ERR!
+343 verbose publish error npm ERR! If you need help, you may report this error at:
+343 verbose publish error npm ERR!     <https://github.com/npm/npm/issues>
+343 verbose publish error
+343 verbose publish error npm ERR! Please include the following file with any support request:
+343 verbose publish error npm ERR!     C:\Users\zach.hollingshead\AppData\Roaming\npm-cache\_logs\2017-10-03T17_21_47_045Z-debug.log
+343 verbose publish error
+343 verbose publish error     at Promise.all.then.arr (C:\Users\zach.hollingshead\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
+343 verbose publish error     at process._tickCallback (internal/process/next_tick.js:109:7)
+344 verbose publishing @aurelia-ux-components/checkbox
+345 silly publishTaggedInDir latest checkbox
+346 silly getExecOpts { cwd: 'C:\\Development\\Aurelia\\ux-components\\packages\\checkbox' }
+347 error publish Retrying failed publish: @aurelia-ux-components/chip-input
+348 verbose publish error Error: Command failed: npm publish --tag latest
+348 verbose publish error npm ERR! publish Failed PUT 402
+348 verbose publish error npm ERR! Windows_NT 10.0.15063
+348 verbose publish error npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "latest"
+348 verbose publish error npm ERR! node v7.9.0
+348 verbose publish error npm ERR! npm  v4.2.0
+348 verbose publish error npm ERR! code E402
+348 verbose publish error
+348 verbose publish error npm ERR! You must sign up for private packages : @aurelia-ux-components/chip-input
+348 verbose publish error npm ERR!
+348 verbose publish error npm ERR! If you need help, you may report this error at:
+348 verbose publish error npm ERR!     <https://github.com/npm/npm/issues>
+348 verbose publish error
+348 verbose publish error npm ERR! Please include the following file with any support request:
+348 verbose publish error npm ERR!     C:\Users\zach.hollingshead\AppData\Roaming\npm-cache\_logs\2017-10-03T17_21_47_040Z-debug.log
+348 verbose publish error
+348 verbose publish error     at Promise.all.then.arr (C:\Users\zach.hollingshead\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
+348 verbose publish error     at process._tickCallback (internal/process/next_tick.js:109:7)
+349 verbose publishing @aurelia-ux-components/chip-input
+350 silly publishTaggedInDir latest chip-input
+351 silly getExecOpts { cwd: 'C:\\Development\\Aurelia\\ux-components\\packages\\chip-input' }
+352 error publish Retrying failed publish: @aurelia-ux-components/button
+353 verbose publish error Error: Command failed: npm publish --tag latest
+353 verbose publish error npm ERR! publish Failed PUT 402
+353 verbose publish error npm ERR! Windows_NT 10.0.15063
+353 verbose publish error npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "latest"
+353 verbose publish error npm ERR! node v7.9.0
+353 verbose publish error npm ERR! npm  v4.2.0
+353 verbose publish error npm ERR! code E402
+353 verbose publish error
+353 verbose publish error npm ERR! You must sign up for private packages : @aurelia-ux-components/button
+353 verbose publish error npm ERR!
+353 verbose publish error npm ERR! If you need help, you may report this error at:
+353 verbose publish error npm ERR!     <https://github.com/npm/npm/issues>
+353 verbose publish error
+353 verbose publish error npm ERR! Please include the following file with any support request:
+353 verbose publish error npm ERR!     C:\Users\zach.hollingshead\AppData\Roaming\npm-cache\_logs\2017-10-03T17_21_47_092Z-debug.log
+353 verbose publish error
+353 verbose publish error     at Promise.all.then.arr (C:\Users\zach.hollingshead\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
+353 verbose publish error     at process._tickCallback (internal/process/next_tick.js:109:7)
+354 verbose publishing @aurelia-ux-components/button
+355 silly publishTaggedInDir latest button
+356 silly getExecOpts { cwd: 'C:\\Development\\Aurelia\\ux-components\\packages\\button' }
+357 error publish Ran out of retries while publishing @aurelia-ux-components/form Error: Command failed: npm publish --tag latest
+357 error publish npm ERR! publish Failed PUT 402
+357 error publish npm ERR! Windows_NT 10.0.15063
+357 error publish npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "latest"
+357 error publish npm ERR! node v7.9.0
+357 error publish npm ERR! npm  v4.2.0
+357 error publish npm ERR! code E402
+357 error publish
+357 error publish npm ERR! You must sign up for private packages : @aurelia-ux-components/form
+357 error publish npm ERR!
+357 error publish npm ERR! If you need help, you may report this error at:
+357 error publish npm ERR!     <https://github.com/npm/npm/issues>
+357 error publish
+357 error publish npm ERR! Please include the following file with any support request:
+357 error publish npm ERR!     C:\Users\zach.hollingshead\AppData\Roaming\npm-cache\_logs\2017-10-03T17_21_50_825Z-debug.log
+357 error publish
+357 error publish     at Promise.all.then.arr (C:\Users\zach.hollingshead\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
+357 error publish     at process._tickCallback (internal/process/next_tick.js:109:7)
+358 error execute callback with error
+358 error execute  Error: Command failed: npm publish --tag latest
+358 error execute npm ERR! publish Failed PUT 402
+358 error execute npm ERR! Windows_NT 10.0.15063
+358 error execute npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "latest"
+358 error execute npm ERR! node v7.9.0
+358 error execute npm ERR! npm  v4.2.0
+358 error execute npm ERR! code E402
+358 error execute
+358 error execute npm ERR! You must sign up for private packages : @aurelia-ux-components/form
+358 error execute npm ERR!
+358 error execute npm ERR! If you need help, you may report this error at:
+358 error execute npm ERR!     <https://github.com/npm/npm/issues>
+358 error execute
+358 error execute npm ERR! Please include the following file with any support request:
+358 error execute npm ERR!     C:\Users\zach.hollingshead\AppData\Roaming\npm-cache\_logs\2017-10-03T17_21_50_825Z-debug.log
+358 error execute
+358 error execute     at Promise.all.then.arr (C:\Users\zach.hollingshead\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
+358 error execute     at process._tickCallback (internal/process/next_tick.js:109:7)

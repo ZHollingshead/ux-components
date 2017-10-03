@@ -12,20 +12,17 @@ This library is part of the [Aurelia](http://www.aurelia.io/) platform and exten
 
 Check out the [showcase application](https://github.com/aurelia/app-ux-showcase) for demos and documentation. If you are interested in contributing, have a read through [our wiki](https://github.com/aurelia/ux/wiki).
 
+## Setup
+```shell
+npm install
+```
+
+```shell
+lerna bootstrap
+```
+
 ## Building
 
 ```shell
-npm run build
-```
-
-## Tests
-
-```shell
-npm run test
-```
-
-## Developing
-
-```shell
-npm run develop
+lerna run build
 ```
