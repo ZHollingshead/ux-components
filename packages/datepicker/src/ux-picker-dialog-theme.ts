@@ -1,4 +1,4 @@
-import {styles} from 'aurelia-ux';
+import { styles } from 'aurelia-ux';
 
 @styles()
 export class UxPickerDialogTheme {

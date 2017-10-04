@@ -3,10 +3,10 @@ import { computedFrom, bindingMode } from 'aurelia-binding';
 import { inject } from 'aurelia-dependency-injection';
 import { StyleEngine } from 'aurelia-ux';
 import { Themable } from 'aurelia-ux';
-import { PaperRipple } from '../effects/paper-ripple';
 import { processDesignAttributes } from 'aurelia-ux';
 import { UxCheckboxTheme } from './ux-checkbox-theme';
-import { normalizeBooleanAttribute } from '../../../resources/html-attributes';
+import { PaperRipple } from '../../effects/paper-ripple';
+import { normalizeBooleanAttribute } from '../../resources/html-attributes';
 
 @inject(Element, ViewResources, StyleEngine)
 @customElement('ux-checkbox')

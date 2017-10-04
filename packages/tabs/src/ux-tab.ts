@@ -1,6 +1,11 @@
 import {
-  inject, customElement, bindable, bindingMode, processAttributes,
-  ViewResources, View
+  inject,
+  customElement,
+  bindable,
+  bindingMode,
+  processAttributes,
+  ViewResources,
+  View
 } from 'aurelia-framework';
 import { DOM } from 'aurelia-pal';
 import { StyleEngine } from 'aurelia-ux';

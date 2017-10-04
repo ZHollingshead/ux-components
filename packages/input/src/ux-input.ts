@@ -5,7 +5,7 @@ import { inject } from 'aurelia-dependency-injection';
 import { StyleEngine } from 'aurelia-ux';
 import { Themable } from 'aurelia-ux';
 import { processDesignAttributes } from 'aurelia-ux';
-import { normalizeBooleanAttribute } from '../../../resources/html-attributes';
+import { normalizeBooleanAttribute } from '../../resources/html-attributes';
 
 @inject(Element, ViewResources, StyleEngine)
 @customElement('ux-input')

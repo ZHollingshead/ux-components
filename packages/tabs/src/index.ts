@@ -2,7 +2,7 @@ import { FrameworkConfiguration, PLATFORM } from 'aurelia-framework';
 
 export function configure(config: FrameworkConfiguration) {
   config.globalResources([
-    PLATFORM.moduleName('./tabs/ux-tab'),
-    PLATFORM.moduleName('./tabs/ux-tabs')
+    PLATFORM.moduleName('./ux-tab'),
+    PLATFORM.moduleName('./ux-tabs')
   ]);
 }
